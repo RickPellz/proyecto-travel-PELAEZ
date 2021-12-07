@@ -14,7 +14,7 @@ a{
 }
 
     .header{
-        background: url(../imagenes/pexels.jpg);
+        background: url(../imagenes/asia.jpg);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
@@ -80,23 +80,18 @@ a{
 
     .grid {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
         grid-gap: 10px;
-        min-height: 100vh;
-        text-align: center;
     }
     .grid div:hover{
         border: 1px solid rgb(20, 20, 18);
-        }
-        .grid div{
-            background:#ecf0f1; 
-        }
-
-        .footer{
-            display: grid;
-            background: #ecf0f1;
-            grid-template-rows: 100%;
-            height: 70px;
-        }
-
-
+    }
+    .grid div{
+        background:#ecf0f1; 
+    }
+    .footer{
+        display: grid;
+        background: #ecf0f1;
+        grid-template-rows: 100%;
+        height: 70px;
+    }

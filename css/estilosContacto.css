@@ -1,0 +1,47 @@
+body{
+    background-image: url(../imagenes/Aeropuerto3.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+} 
+.menu{
+    background: rgba(0,0,0,.1);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid rgba(247, 242, 242, 0.5)
+}
+.logo{
+    flex:1 1 auto;
+}
+    .logo a{
+        font-size: 20px;
+    }
+    .logo a:hover{
+        color:#357e8f;
+    }
+
+.nav{
+    flex:5 1 auto;
+}
+    .nav a{
+        font-size: 20px;
+        padding: 0 10px;
+        letter-spacing:  1px;
+    }
+    .nav a:hover{
+        color: #357e8f;
+    }
+.social{
+    flex:1 1 auto;
+    display: flex;
+}
+    .social a{
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    .social a:hover{
+        color: #357e8f;
+    }
+
+
