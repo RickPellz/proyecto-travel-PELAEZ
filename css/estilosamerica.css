@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+    color: rgb(248, 16, 35);
+}
+
+    .padre{
+        display: flex;
+        flex-flow: column nowrap;
+}
+
+    .header{
+        background: url(../imagenes/aeropuerto.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+        .menu{
+            background: rgba(0,0,0,.1);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 70px;
+            align-items: center;
+            border-bottom: 1px solid rgba(247, 242, 242, 0.5)
+        }
+            .logo{
+                flex:1 1 auto;
+            }
+                .logo a{
+                    font-size: 20px;
+                }
+                .logo a:hover{
+                    color:#357e8f;
+                }
+
+            .nav{
+                flex:5 1 auto;
+            }
+                .nav a{
+                    font-size: 20px;
+                    padding: 0 10px;
+                    letter-spacing:  1px;
+                }
+                .nav a:hover{
+                    color: #357e8f;
+                }
+            .social{
+                flex:1 1 auto;
+                display: flex;
+            }
+                .social a{
+                    font-size: 20px;
+                    padding: 0 5px;
+                }
+                .social a:hover{
+                    color: #357e8f;
+                }
+
+        .texto-principal{
+            height: 580px;
+            display: flex;
+            align-items: center;
+        }
+            h1{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                color: red;
+                font-weight: 300;
+                text-align: center;
+                line-height: 1.8;
+            }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 10px;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .grid div:hover{
+        border: 1px solid rgb(20, 20, 18);
+        }
+        .grid div{
+            background:#ecf0f1; 
+        }
+
+        .footer{
+            display: grid;
+            background: #ecf0f1;
+            grid-template-rows: 100%;
+            height: 70px;
+        }
+
+

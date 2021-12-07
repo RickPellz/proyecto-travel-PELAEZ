@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilosContacto.css">
+</head>
+
+<body>
+    <!-- mi primer menu -->
+    <div class="principal"> 
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../America.html">America</a></li>
+            <li><a href="../Europa.html">Europa</a></li>
+            <li><a href="../RestodelMundo.html">Resto del Mundo</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+
+
+    <div>
+        <img src="../css/cellphone-g8a4e492df_1920.jpg" alt="contacto redes" />
+    </div>
+
+    <!-- aqui va el formulario -->
+    <div>
+        <div id="formulario">
+            <p>Contacto:</p>
+            <form action="" method="POST" enctype="multipart/form-data">
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Apellido" placeholder="Apellido" required>
+            </form>
+        </div>
+        <div> 
+            <p>Estado Civil</p>
+            <form action="" method="POST" enctype="multipart/form-data">
+            <select name="Opciones"> 
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+            </select>   
+            </form>
+        </div>
+        <div>
+            <p>E-mail:</p>
+            <form action="" method="POST" enctype="multipart/form-data">
+            <input type="email" name="email" placeholder="Email">
+            </form>
+        </div>
+        <div>
+            <p>Comentarios</p>
+            <textarea name="Mensaje" placeholder="Escriba Aqui"></textarea>
+        </div>
+        <div>
+            <p>Acepto Terminos y condiciones</p>
+            <form action="" method="POST" enctype="multipart/form-data"> 
+            <input type="checkbox" name="Terminos">
+            </form>          
+        </div>
+        <div> 
+            <form action="" method="POST" enctype="multipart/form-data">   
+            <input type="reset" name="" value="Limpiar formulario" >            
+            <input type="submit" name="" value="Enviar formulario" >
+            </form>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div>Redes Sociales</div>
+        <ul>
+            <li><a href="http://www.facebook.com" target="_blank">Face</a></li>
+            <li><a href="http://www.instagram.com" target="_blank">Insta</a></li>
+            <li><a href="http://www.linkedin.com" target="_blank">LinkedIn</a></li>            
+        </ul> 
+        <p>© Coder 2021</p>
+    </div>  
+</body>
+</html>
