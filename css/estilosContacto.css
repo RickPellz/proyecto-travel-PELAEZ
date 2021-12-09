@@ -43,5 +43,10 @@ body{
     .social a:hover{
         color: #357e8f;
     }
-
+    .footer{
+        display: grid;
+        background: none;
+        grid-template-rows: 100%;
+        height: 70px;
+    }
 
